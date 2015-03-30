@@ -1,0 +1,28 @@
+# HashMapPractice
+package jrJava.mapPractice;
+
+import java.util.*;
+
+public class Practice {
+
+
+	public static void main(String[] args) {
+		HashMap<String , String> hobby = new HashMap<String , String>();
+		hobby.put("Derek", "sleep late");
+		hobby.put("Stanley", "uninhibited eating");
+		hobby.put("Vincent", "jumping up and down no reason ");
+		
+		System.out.println(hobby.get("Stanley"));
+		
+		HashMap<String , String> grade = new HashMap<String , String>();
+		grade.put("Derek", "6");
+		grade.put("Stanley", "2");
+		grade.put("Vincent", "5");
+		
+		System.out.println(hobby.get("Vicent"));
+		
+		
+		
+	}
+
+}
